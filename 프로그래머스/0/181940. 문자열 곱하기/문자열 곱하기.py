@@ -1,7 +1,4 @@
 def solution(my_string, k):
-    answer = ''
-    
-    for n in range(k):
-        answer += my_string
+    answer = my_string * k
     
     return answer
